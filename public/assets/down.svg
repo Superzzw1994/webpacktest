@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>page_down</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1326" height="624" rx="2"></rect>
+        <filter x="-0.5%" y="-0.8%" width="101.1%" height="102.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.12334826   0 0 0 0 0.156873573   0 0 0 0 0.212749094  0 0 0 0.0649311626 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="交行-所有事件-查看详情备份" transform="translate(-1319.000000, -291.000000)">
+            <g id="编组-6" transform="translate(20.000000, 124.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="编组" mask="url(#mask-2)">
+                    <g transform="translate(0.000000, 15.000000)"></g>
+                </g>
+            </g>
+            <g id="编组-7" transform="translate(1000.000000, 248.000000)" fill="#A1A1A1" fill-rule="nonzero">
+                <polygon id="page_down" transform="translate(322.500000, 49.000000) scale(-1, 1) rotate(-90.000000) translate(-322.500000, -49.000000) " points="322.5 45.5 328.5 52.5 316.5 52.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
