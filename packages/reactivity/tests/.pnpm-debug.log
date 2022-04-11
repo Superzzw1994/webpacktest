@@ -1,0 +1,174 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "webpacktest",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "jest"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Superzzw1994/webpacktest.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/Superzzw1994/webpacktest/issues"
+      },
+      "homepage": "https://github.com/Superzzw1994/webpacktest#readme",
+      "dependencies": {
+        "typescript": "^4.6.3"
+      },
+      "devDependencies": {
+        "@babel/core": "^7.17.9",
+        "@babel/preset-env": "^7.16.11",
+        "@types/jest": "^27.4.1",
+        "babel-jest": "^27.5.1",
+        "jest": "^27.5.1"
+      }
+    },
+    "prefix": "/Users/zhiwei.zheng/Desktop/webpacktest"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "/Users/zhiwei.zheng/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/zhiwei.zheng/Desktop/webpacktest/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@babel/core/7.17.9",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@babel/core",
+      "rawSpec": "^7.17.9"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@babel/preset-env/7.16.11",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@babel/preset-env",
+      "rawSpec": "^7.16.11"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@types/jest/27.4.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/jest",
+      "rawSpec": "^27.4.1"
+    }
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/babel-jest/27.5.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "babel-jest",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/jest/27.5.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "jest",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/typescript/4.6.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "^4.6.3"
+    }
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@babel/core/7.17.9",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "resolved"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@babel/core/7.17.9",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "found_in_store"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@types/jest/27.4.1",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "resolved"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@types/jest/27.4.1",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "found_in_store"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@babel/preset-env/7.16.11",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "resolved"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@babel/preset-env/7.16.11",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "found_in_store"
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/babel-jest/27.5.1",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "resolved"
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/babel-jest/27.5.1",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "found_in_store"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/jest/27.5.1",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "resolved"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/jest/27.5.1",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "found_in_store"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/typescript/4.6.3",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "resolved"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/typescript/4.6.3",
+    "requester": "/Users/zhiwei.zheng/Desktop/webpacktest",
+    "status": "found_in_store"
+  },
+  "22 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@babel/typescript is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npm.taobao.org/@babel%2Ftypescript"
+    },
+    "response": {
+      "size": 0,
+      "timeout": 60000
+    },
+    "pkgName": "@babel/typescript",
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npm.taobao.org/@babel%2Ftypescript: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npm.taobao.org/@babel%2Ftypescript: Not Found - 404\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:78851:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
