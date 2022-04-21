@@ -1,7 +1,19 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+const path = require("path");
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()]
-})
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
+  // css: {
+  //   preprocessorOptions: {
+  //     scss: {
+  //       additionalData: "@import \"@/assets/style/main.scss\";"
+  //     }
+  //   }
+  // }
+});
