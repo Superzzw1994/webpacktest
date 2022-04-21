@@ -5,12 +5,14 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./components";
 import { SilderComponent } from './components/silder/silder.component';
+import { GridDirective } from './directives/grid.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SilderComponent
+    SilderComponent,
+    GridDirective
   ],
   imports: [
     BrowserModule,
