@@ -1,8 +1,0 @@
-<ul class="header" #headerWrapper>
-  <li #titles *ngFor="let menu of menus; let i = index; trackBy: trackTitles" (click)="onTabClick(menu)" class="item">
-    <a
-      [class.active]="menu.title === activeTab.title"
-    >{{menu.title}}</a>
-    <span class="indicator" *ngIf="menu.title === activeTab.title"></span>
-  </li>
-</ul>

@@ -1,1 +1,17 @@
-<app-header [menus]="menus" [activeTab]="activeTab" (tabSelected)="getSelectedMenu($event)"></app-header>
+<div class="container">
+  <header>
+    <app-header (toggleSidebarForMe)="changeDrawerVisible()"></app-header>
+  </header>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+  <footer>
+    <app-footer></app-footer>
+  </footer>
+</div>
+<nz-drawer [nzVisible]="drawerVisible" [nzPlacement]="placement" nzClosable="false"
+           (nzOnClose)="changeDrawerVisible()">
+  <ng-container *nzDrawerContent>
+    <app-sider></app-sider>
+  </ng-container>
+</nz-drawer>

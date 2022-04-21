@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SilderComponent } from './silder.component';
+import { SiderComponent } from './sider.component';
 
-describe('SilderComponent', () => {
-  let component: SilderComponent;
-  let fixture: ComponentFixture<SilderComponent>;
+describe('SiderComponent', () => {
+  let component: SiderComponent;
+  let fixture: ComponentFixture<SiderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SilderComponent ]
+      declarations: [ SiderComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SilderComponent);
+    fixture = TestBed.createComponent(SiderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

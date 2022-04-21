@@ -1,0 +1,18 @@
+:host {
+  .header {
+    background: #008DFF;
+    line-height: 48px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 0 12px;
+
+    .toggleIcon {
+      margin-left: 12px;
+      cursor: pointer;
+
+      &:hover {
+        color: #000000;
+      }
+    }
+  }
+}
