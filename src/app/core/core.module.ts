@@ -5,6 +5,7 @@ import { FooterComponent } from "./footer/footer.component";
 import { SiderComponent } from "./sider/sider.component";
 import { NzDrawerModule } from "ng-zorro-antd/drawer";
 import { NzIconModule } from "ng-zorro-antd/icon";
+import { NzListModule } from "ng-zorro-antd/list";
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { NzIconModule } from "ng-zorro-antd/icon";
   imports: [
     CommonModule,
     NzDrawerModule,
-    NzIconModule
+    NzIconModule,
+    NzListModule
   ],
   exports: [
     HeaderComponent,

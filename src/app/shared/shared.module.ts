@@ -1,11 +1,13 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { NzIconModule } from "ng-zorro-antd/icon";
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    NzIconModule
   ],
-  exports: [CommonModule]
+  exports: [CommonModule, NzIconModule]
 })
 export class SharedModule {}

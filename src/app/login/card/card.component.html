@@ -1,1 +1,22 @@
-<p>card works!</p>
+<nz-card style="width:500px;" [nzBordered]="true" [nzActions]="[sign]" nzTitle="登陆">
+  <nz-input-group [nzPrefix]="prefixTemplateUser" class="username">
+    <input type="text" nz-input placeholder="请输入用户名" />
+  </nz-input-group>
+  <ng-template #prefixTemplateUser><i nz-icon nzType="user"></i></ng-template>
+  <nz-input-group [nzSuffix]="suffixTemplate">
+    <input
+      [type]="passwordVisible ? 'text' : 'password'"
+      nz-input
+      placeholder="请输入密码"
+      [(ngModel)]="password"
+    />
+  </nz-input-group>
+  <ng-template #suffixTemplate>
+    <i nz-icon [nzType]="passwordVisible ? 'eye-invisible' : 'eye'" (click)="passwordVisible = !passwordVisible"></i>
+  </ng-template>
+</nz-card>
+<ng-template #sign>
+  <div class="loginCardFooter">
+    <button nz-button>登陆</button>
+  </div>
+</ng-template>

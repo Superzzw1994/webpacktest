@@ -1,1 +1,36 @@
-<p>sider works!</p>
+<p>项目</p>
+<nz-list nzItemLayout="horizontal">
+  <nz-list-item>
+    <nz-list-item-meta
+      [nzAvatar]="avatar"
+      nzDescription="项目首页"
+    >
+      <nz-list-item-meta-title>
+        <span class="link" (click)="changeRoute('project')">
+          查看您的所有项目
+        </span>
+      </nz-list-item-meta-title>
+    </nz-list-item-meta>
+    <ng-template #avatar>
+      <i nz-icon nzType="folder" nzTheme="outline"></i>
+    </ng-template>
+  </nz-list-item>
+</nz-list>
+<p>日历</p>
+<nz-list nzItemLayout="horizontal">
+  <nz-list-item *ngFor="let menu of menus; let i = index">
+    <nz-list-item-meta
+      [nzAvatar]="avatar"
+      [nzDescription]="menu.name"
+    >
+      <nz-list-item-meta-title>
+        <span class="link" (click)="changeRoute(menu.type)">
+          {{menu.description}}
+        </span>
+      </nz-list-item-meta-title>
+    </nz-list-item-meta>
+    <ng-template #avatar>
+      <i nz-icon [nzType]="menu.icon" nzTheme="outline"></i>
+    </ng-template>
+  </nz-list-item>
+</nz-list>

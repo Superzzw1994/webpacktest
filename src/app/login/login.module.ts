@@ -1,8 +1,11 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-import { LoginRoutingModule } from './login-routing.module';
-import { CardComponent } from './card/card.component';
+import { NgModule } from "@angular/core";
+import { SharedModule } from "../shared";
+import { LoginRoutingModule } from "./login-routing.module";
+import { CardComponent } from "./card/card.component";
+import { NzCardModule } from "ng-zorro-antd/card";
+import { NzInputModule } from "ng-zorro-antd/input";
+import { NzButtonModule } from "ng-zorro-antd/button";
+import { FormsModule } from "@angular/forms";
 
 
 @NgModule({
@@ -10,8 +13,12 @@ import { CardComponent } from './card/card.component';
     CardComponent
   ],
   imports: [
-    CommonModule,
-    LoginRoutingModule
+    SharedModule,
+    LoginRoutingModule,
+    NzCardModule,
+    NzInputModule,
+    NzButtonModule,
+    FormsModule
   ]
 })
-export class LoginModule { }
+export class LoginModule {}
