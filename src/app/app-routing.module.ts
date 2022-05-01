@@ -8,6 +8,11 @@ const routes: Routes = [
     pathMatch: "full"
   },
   {
+    path: "projects",
+    redirectTo: "/projects",
+    pathMatch: "full"
+  },
+  {
     path: "**",
     redirectTo: "/login",
     pathMatch: "full"

@@ -1,0 +1,16 @@
+:host {
+  margin-right: 12px;
+
+  .projectItem {
+    width: 360px;
+
+    .projectItemBackground {
+      height: 200px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

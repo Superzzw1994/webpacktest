@@ -8,6 +8,7 @@
   <footer>
     <app-footer></app-footer>
   </footer>
+  <i #addBtn class="andBtn" nz-icon nzType="plus-circle" nzTheme="outline" (click)="createModal()"></i>
 </div>
 <nz-drawer [nzVisible]="drawerVisible" [nzPlacement]="placement" nzClosable="false"
            (nzOnClose)="changeDrawerVisible()">

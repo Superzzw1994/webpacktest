@@ -1,0 +1,19 @@
+<nz-card nzHoverable class="projectItem" [nzCover]="projectBackground" [nzTitle]="project?.name || '新建项目'"
+         [nzActions]="[projectCardFooterSetting, projectCardFooterEdit, projectCardFooterDelete]">
+  {{project?.description}}
+</nz-card>
+<ng-template #projectBackground>
+  <div class="projectItemBackground">
+    <img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
+  </div>
+</ng-template>
+<ng-template #projectCardFooterSetting>
+  <i nz-icon nzType="setting"></i>
+</ng-template>
+<ng-template #projectCardFooterEdit>
+  <i nz-icon nzType="edit"></i>
+</ng-template>
+<ng-template #projectCardFooterDelete>
+  <i nz-icon nzType="delete"></i>
+</ng-template>
+

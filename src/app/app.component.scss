@@ -4,8 +4,18 @@
 }
 
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
+
+  .andBtn {
+    font-size: 36px;
+    position: absolute;
+    bottom: 84px;
+    right: 48px;
+    color: #008DFF;
+    cursor: pointer;
+  }
 }
 
 main {
