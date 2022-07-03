@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { projectItem } from "../types";
 import { ProjectsService } from "../projects.service";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-list",
@@ -19,9 +20,12 @@ export class ListComponent implements OnInit {
     }
   ];
 
-  constructor(public projectsService: ProjectsService) { }
+  constructor(public projectsService: ProjectsService, public router: Router) { }
 
   ngOnInit(): void {
   }
 
+  navigateToProject(project: projectItem) {
+    this.router.navigate(["/tasks", project.name]);
+  }
 }

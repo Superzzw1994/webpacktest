@@ -13,6 +13,7 @@ import { FormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ProjectsModule } from "./projects";
+import { TaskModule } from "./task";
 import { AppService } from "./app.service";
 
 registerLocaleData(zh);
@@ -30,7 +31,8 @@ registerLocaleData(zh);
     CoreModule,
     SharedModule,
     LoginModule,
-    ProjectsModule
+    ProjectsModule,
+    TaskModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }, AppService],
   bootstrap: [AppComponent]

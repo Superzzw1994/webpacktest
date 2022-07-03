@@ -14,7 +14,6 @@ export class ItemComponent implements OnInit {
   constructor(private cd: ChangeDetectorRef, private projectService: ProjectsService) { }
 
   ngOnInit(): void {
-    console.log(this.projectService, "projectService");
   }
 
 }

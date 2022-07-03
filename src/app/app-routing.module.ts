@@ -13,6 +13,10 @@ const routes: Routes = [
     pathMatch: "full"
   },
   {
+    path: "tasks",
+    redirectTo: "tasks"
+  },
+  {
     path: "**",
     redirectTo: "/login",
     pathMatch: "full"

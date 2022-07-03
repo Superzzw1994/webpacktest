@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { TaskListComponent } from './task-list/task-list.component';
-import { TaskItemComponent } from './task-item/task-item.component';
-
+import { NgModule } from "@angular/core";
+import { SharedModule } from "../shared";
+import { TaskRoutingModule } from "./task-routing.module";
+import { TaskListComponent } from "./task-list/task-list.component";
+import { TaskItemComponent } from "./task-item/task-item.component";
 
 
 @NgModule({
@@ -11,7 +11,8 @@ import { TaskItemComponent } from './task-item/task-item.component';
     TaskItemComponent
   ],
   imports: [
-    CommonModule
+    SharedModule,
+    TaskRoutingModule
   ]
 })
-export class TaskModule { }
+export class TaskModule {}

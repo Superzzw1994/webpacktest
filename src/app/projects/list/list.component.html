@@ -1,3 +1,4 @@
 <div class="project__list">
-  <app-item *ngFor="let project of projectList" [project]="project"></app-item>
+  <app-item [app-drag]="true" [draggedClass]="'zzw'" *ngFor="let project of projectList" [project]="project"
+            (click)="navigateToProject(project)"></app-item>
 </div>

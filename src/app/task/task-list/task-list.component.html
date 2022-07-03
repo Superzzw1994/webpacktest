@@ -1,1 +1,4 @@
-<p>task-list works!</p>
+<div class="taskList" *ngFor="let task of taskList;">
+  <div class="taskListHeader">{{task.name}}</div>
+  <app-task-item [tasks]="task.tasks || []" class="taskListContent"></app-task-item>
+</div>
